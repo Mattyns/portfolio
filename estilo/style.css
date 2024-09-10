@@ -65,7 +65,7 @@ i#menu2 {
 main {
     background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0.474));
     background-attachment: fixed;
-    height:200%;
+    height:280%;
     width: 104vw;
     padding-bottom: 40px;
     margin: auto;
@@ -132,12 +132,13 @@ main > section > p {
 
 #meusprojetos {
     width: 90vw;
-    height: 450px;
+    height: 1000px;
     background-color: #3e2f259c;
     margin: 0px auto;
     margin-top:30px ;
     border-radius: 20px;
     padding: 10px;
+    
 }
 
 #meusprojetos > h1 {
@@ -155,20 +156,24 @@ main > section > p {
     color: rgb(209, 202, 202);
     padding: 10px;
     margin: 0px;
+    margin-bottom: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    
 }
 
 #projetos {
+    width: 100%;
+    justify-content: center;
     display: flex;
     margin: auto;
-    width: min-content;
+    gap: 15px;
+    
 }
 
-#projetos img {
+#imgprojeto {
     width: 140px;
     border-radius: 20%;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(172, 144, 6);
     
 }
 
@@ -191,3 +196,30 @@ main > section > p {
     background-repeat: no-repeat;
 }
 
+#projetos2 {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    gap: 25px;
+    
+}
+
+
+#projeto3 {
+    
+    width: 150px;
+    height: 300px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#projeto4 {
+    
+    width: 150px;
+    height: 300px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
