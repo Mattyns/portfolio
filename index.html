@@ -7,13 +7,19 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="estilo/style.css">
 </head>
-<body>
+<body id="corpo">
     <header>
-        <nav>
-            <a href="1"><abbr title="Sobre mim"><i class="material-icons" id="menu">assignment_ind</i></abbr></a>
+        <nav id="telanav1">
+            <a href="#1"><abbr title="Sobre mim"><i class="material-icons" id="menu">assignment_ind</i></abbr></a>
             <a href="#2"><abbr title="Meus projetos"><i class="material-icons" id="menu">library_books</i></abbr></a>
 
-            <a href="#"><abbr title="Contato"><i class="material-icons" id="menu2">email</i></abbr></a>
+            <a href="#3"><abbr title="Contato"><i class="material-icons" id="menu2">email</i></abbr></a>
+        </nav>
+        <nav id="telanav2">
+            <a href="#1">SOBRE MIM</a>
+            <a href="#2">MEUS PROJETOS</a>
+
+            <a href="#3" id="telamenu">MINHAS REDES SOCIAIS</a>
         </nav>
        
     </header>
@@ -29,7 +35,7 @@
 
         <section id="sobremim">
             <h1>Sobre mim</h1>
-            <img src="img/eu.jpeg" alt="desenho matheus" id="perfil">
+            <img src="img/eu.jpeg" alt="desenho matheus" id="perfil" onmouseover="mudarback()" onmouseout="voltarback()" onclick="alternarback()">
             <ul>
                 <li>Nome: Matheus Everton</li>
                 <li>Idade: 26 Anos</li>
@@ -72,8 +78,32 @@
 
         </section>
 
+        <div id="3" style="position: relative; top: -40px; height: 1px; background-color: transparent;"></div>
+
+        </div>
+
+        <section id="redessociais">
+            <h1>Minhas Redes Sociais</h1>
+            <div id="redes">
+                <a href="#"><img src="img/whats.png" alt="Meu Whatsapp"></a>
+                <a href="#"><img src="img/insta.jpg" alt="Meu Instagram"></a>
+                <a href="#"><img src="img/face.jpg" alt="Meu Facebook"></a>
+            </div>
+
+
+        </section>
+
+        <div id="navigatortop">
+            <a href="#"><i class="material-icons">keyboard_arrow_up</i></a>
+    
+        </div>
+
 
     </main>
+
+    <script src="Script/script.js"></script>
+
+    
     
 </body>
 </html>
