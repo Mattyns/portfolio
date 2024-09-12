@@ -39,6 +39,10 @@ body {
     
 }
 
+#corpo {
+    transition: .4s linear;
+}
+
 header{
     position: sticky;
     top: 0px;

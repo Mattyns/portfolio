@@ -8,6 +8,7 @@ function voltarback () {
 
 function alternarback () {
     var perfil = document.getElementById("perfil");
+    
     var back = document.getElementById("corpo").style.backgroundImage = 'url("img/pexels-johannes2.jpg")';
     perfil.setAttribute("onclick", "alternarback2(this)");
     perfil.setAttribute("onmouseover", "voltarback(this)");
