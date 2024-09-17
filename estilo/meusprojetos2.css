@@ -5,14 +5,17 @@ main {
 }
 
 header {
-    z-index: 1;
-    opacity: 2;
+    display: block;
+    z-index: 3;
     transition: none;
 }
 
 nav {
+    display: block;
     text-align: center;
     font-size: 1em;
+    
+    z-index: 3;
 }
 
 link {
@@ -30,7 +33,7 @@ link {
 
 #meusprojetos {
     margin-top: 0px;
-    height: 240vh;
+    
 }
 
 #meusprojetos > h1 {
@@ -87,6 +90,17 @@ link {
     width: 80vw;
     font-size: 1.3em;
 }
+
+#textproj3 {
+    text-align: center;
+    text-indent: 0px;
+    position: relative;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 80vw;
+    font-size: 1.3em;
+}
+
 
 #psico {
     width: 80%;

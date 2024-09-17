@@ -195,11 +195,19 @@ main > section > p {
     
 }
 
+#projetos > div {
+    padding: 10px;
+    
+}
+
+
+
 #imgprojeto {
-    width: 140px;
-    border-radius: 20%;
-    margin: 10px;
-   /* border: 2px solid rgb(172, 144, 6);*/
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 25%;
+    margin: 0px;
+    
     
 }
 
@@ -221,6 +229,7 @@ main > section > p {
     font-family: grande2, 'Courier New', Courier, monospace;
     font-size: 2em;
     padding: 10px;
+    text-align: center;
 }
 
 #redes {
@@ -283,16 +292,16 @@ main > section > p {
         
     }
 
-    #meusprojetos {
-        
+    #perfil {
+        width: 25vw;
+        padding: 5px;
+        float: right;
+        border: 2px solid black;
+        background-color: #ffffff;
+        border-radius: 10px;
     }
 
-    #imgprojeto {
-        width: 150px;
-        border-radius: 20%;
-        border: 2px solid rgb(172, 144, 6);
-        
-    }
+    
     
 
    
