@@ -211,6 +211,10 @@ main > section > p {
     
 }
 
+#teste {
+    display: none;
+}
+
 
 
 #redessociais {
@@ -266,6 +270,7 @@ main > section > p {
         padding: 10px;
         position: sticky;
         top: -1px;
+        font-size: 2vw;
         
     }
 
@@ -292,8 +297,12 @@ main > section > p {
         
     }
 
+    #sobremim {
+        height: 300px;
+    }
+
     #perfil {
-        width: 25vw;
+        width: 230px;
         padding: 5px;
         float: right;
         border: 2px solid black;
@@ -301,8 +310,44 @@ main > section > p {
         border-radius: 10px;
     }
 
+    #meusprojetos > h1 {
+        text-align: center;
+    }
+
+    #aviso {
+        text-align: center;
+    }
+
+    #projetos {
+        gap: 50px;
+        width: fit-content;
+        margin: auto;
+    }
     
+    #imgprojeto {
+        width: 300px;
+    }
+
+   
+
     
+}
+
+
+@media screen and (min-Width:1200px) {
+    
+
+
+    main > section > p {
+        width: 60vw;
+        font-size: 1.5em;
+        text-align: right;
+        position: relative;
+        left: 38vw;
+        
+    }
+
+   
 
    
 
